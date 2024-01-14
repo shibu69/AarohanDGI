@@ -1,0 +1,65 @@
+body{
+    color: white;
+}
+
+.Title{
+    padding: 100px;
+    text-align: center;
+}
+
+.Title p{
+    font-size: 20px;
+}
+
+.core-team{
+    max-width: 1224px;
+    margin: 40px auto;
+    padding: 30px;
+}
+
+.title{
+  border-left: 5px solid rgb(0, 50, 233);
+  padding: 10px 20px;
+  font-weight: 800;
+  height: 30px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.members{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boxes{
+    margin: 0px 20px;
+    padding: 10px;
+    transition: transform 0.8s;
+}
+
+.boxes:hover{
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgb(26, 221, 235);
+    transform: scale(1.1);
+}
+
+.boxes img{
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+}
+
+.boxes h3{
+    font-size: 25px;
+}
+.boxes h4{
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.outro{
+    height: 100px;
+    width: 100%;
+    border-left: 1px solid black;
+}

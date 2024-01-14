@@ -1,0 +1,46 @@
+@media screen and (max-width: 750px) {
+    .content h1{
+        font-size: 40px;
+    }
+    .content p{
+        font-size: 20px;
+    }
+    .content a{
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+
+    .about-content {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .about-para:nth-child(3){
+        display: none;
+    }
+
+
+    
+  .Events img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .Events figcaption{
+    font-size: 13px;
+  }
+
+  .faq-accordion-container ul{
+    margin: 0px 10px 30px 10px;
+  }
+
+  .faq-accordion-container h3 {
+    font-size: 30px;
+  }
+  .faq-question h2{
+    font-size: 15px;
+  }
+}
