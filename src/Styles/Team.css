@@ -3,7 +3,7 @@ body{
 }
 
 .Title{
-    padding: 100px;
+    padding: 100px 0px;
     text-align: center;
 }
 
@@ -12,14 +12,14 @@ body{
 }
 
 .core-team{
-    max-width: 1224px;
+    max-width: 1220px;
     margin: 40px auto;
-    padding: 30px;
+    padding: 20px;
 }
 
 .title{
   border-left: 5px solid rgb(0, 50, 233);
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-weight: 800;
   height: 30px;
   margin-bottom: 30px;
@@ -33,7 +33,7 @@ body{
 }
 
 .boxes{
-    margin: 0px 20px;
+    margin: 0px 10px;
     padding: 10px;
     transition: transform 0.8s;
 }
@@ -62,4 +62,15 @@ body{
     height: 100px;
     width: 100%;
     border-left: 1px solid black;
+}
+
+
+@media screen and (max-width:1050px) {
+    .members{
+        display: block;
+    }
+
+    .Title{
+        padding-bottom: 20px;
+    }
 }
